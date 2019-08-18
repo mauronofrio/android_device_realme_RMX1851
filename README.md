@@ -8,7 +8,7 @@ TWRP device tree for Realme 3 Pro
 Works:
 
 - ADB
-- Decryption of /data (Only if pattern or pin or password is not setted)
+- Decryption of /data
 - Screen brightness settings
 - Correct screenshot color
 - MTP
@@ -47,7 +47,7 @@ mka recoveryimage ALLOW_MISSING_DEPENDENCIES=true # Only if you use minimal twrp
 To test it:
 
 ```
-fastboot boot out/target/product/RMX1851/recovery.img
+fastboot flash recovery out/target/product/RMX1851/recovery.img
 ```
 
 ## Other Sources
@@ -56,3 +56,4 @@ Kernel Sources: using precompiled stock kernel
 
 ## Thanks
 
+@4j17h
